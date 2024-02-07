@@ -427,6 +427,10 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.radio.multisim_switch_support=true
 
+# Remove some prebuilt apps
+PRODUCT_PACKAGES += \
+	 RemovePackagesDevice
+
 # RPMB TA
 PRODUCT_PACKAGES += \
 	tlrpmb
